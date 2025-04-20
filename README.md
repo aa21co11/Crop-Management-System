@@ -1,1 +1,0 @@
-# Crop-Management-System
