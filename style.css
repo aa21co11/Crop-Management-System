@@ -1,0 +1,111 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #B1C29E; /* Neutral Background */
+    color: #59287E; /* Contrast Text */
+}
+
+/* Container for authentication forms */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #B1C29E; /* Neutral Background */
+}
+
+.auth-box {
+    background-color: #FFE6A9; /* Secondary Accent */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.auth-box h2 {
+    color: #59287E; /* Contrast Text */
+    margin-bottom: 20px;
+}
+
+.auth-box label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.auth-box input[type="text"],
+.auth-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #DEAA79; /* Primary Accent */
+    border-radius: 5px;
+    background-color: #FFF; /* Neutral Input Background */
+    color: #59287E; /* Contrast Text */
+}
+
+.auth-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #DEAA79; /* Primary Accent */
+    color: #59287E; /* Contrast Text */
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.auth-box button:hover {
+    background-color: #FFE6A9; /* Secondary Accent */
+    color: #59287E; /* Contrast Text */
+}
+
+.auth-box a {
+    color: #DEAA79; /* Primary Accent Link */
+    text-decoration: none;
+}
+
+.auth-box a:hover {
+    text-decoration: underline;
+}
+
+/* Error and success messages */
+.error {
+    color: #FF4D4D; /* Error Color */
+    font-weight: bold;
+}
+
+.success {
+    color: #4CAF50; /* Success Color */
+    font-weight: bold;
+}
+
+/* Dashboard */
+.dashboard {
+    padding: 20px;
+    background-color: #B1C29E; /* Neutral Background */
+    text-align: center;
+}
+
+.dashboard h1 {
+    color: #59287E; /* Contrast Text */
+    margin-bottom: 10px;
+}
+
+.dashboard a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #DEAA79; /* Primary Accent */
+    color: #59287E; /* Contrast Text */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.dashboard a:hover {
+    background-color: #FFE6A9; /* Secondary Accent */
+}
